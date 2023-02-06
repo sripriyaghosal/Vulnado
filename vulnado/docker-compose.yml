@@ -19,8 +19,7 @@ services:
     build: client
     ports:
       - 1337:80
-      veracode/veracode-flaws-to-issues@v2.1.0
-
+     
   db:
     image: postgres
     environment:
